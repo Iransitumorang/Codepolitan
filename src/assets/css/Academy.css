@@ -1,0 +1,14 @@
+.academy button {
+    width: 15vw;
+    height: 4vw;
+    font-size: 21px;
+}
+
+.academy {
+    display: flex;
+    justify-content: center;
+}
+
+.solusimu {
+    font-size: 20px;
+}

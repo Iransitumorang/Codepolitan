@@ -1,0 +1,19 @@
+.leftbar a, .link-forum a {
+    text-decoration: none;
+    color: rgb(25, 25, 25);
+}
+
+.rightbar {
+    box-shadow: 0px 6px 6px rgb(0 0 0 / 10%);
+    transition: 100ms;
+    border-radius: 10px;
+}
+
+/* Baru */
+.bagaimana {
+    font-size: 20px;
+}
+
+.setelah {
+    font-size: 17px;
+}

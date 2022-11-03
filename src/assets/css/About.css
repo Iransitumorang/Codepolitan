@@ -1,0 +1,75 @@
+.dukungan {
+    background-image: url(../img/bg-about.png);
+    font-size: 30px;
+    height: 25vw;
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+}
+
+.ekosistem {
+    color: rgb(254, 254, 254);
+    padding-top: 11vw;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.kotakode-main {
+    background: #FEFEFE;
+    box-shadow: -5px 10px 15px rgb(0 0 0 / 25%);
+    align-items: center;
+    border-radius: 10px;
+    padding: 3vw;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4vw;
+}
+
+.nama {
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.jabatan {
+    color: rgb(249, 129, 58);
+    font-size: 2vw;
+}
+
+.spesialisai {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.konek {
+    font-size: 2vw;
+}
+
+.maskot {
+    background-image: url(../img/bg-ttg.png);
+    color: #FEFEFE;
+}
+
+.maskot-group {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.maskot-head {
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.kucing {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.maskot p {
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+.maskot img {
+    margin-top: auto;
+    margin-bottom: auto;
+}

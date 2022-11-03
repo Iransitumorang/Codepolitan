@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,800;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,800;1,400&display=swap');
+}
+
+header {
+    font-size: 1.4vw;
+    border-bottom: 5px solid rgb(249, 129, 58);
+    position: sticky;
+}
+
+.menu-link a {
+    color: rgb(117, 117, 117) !important;
+    font-weight: 600;
+    text-decoration: none;
+    border: initial;
+}
+
+.menu-link a:hover {
+    border: 1px solid rgb(18, 153, 82);
+    /* background-color: red; */
+    /* border-radius: 8px; */
+}
+
+#NavDropdown a:hover {
+    background-color: rgb(18, 153, 82) !important;
+    color: rgb(18, 153, 82) !important;
+}
+
+button {
+    width: 8vw;
+}

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,800;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,800;1,400&display=swap');
+}
+
+.jadilah,
+.satu-platform {
+    font-size: 3.5vw;
+    font-weight: 600;
+    line-height: 4vw;
+}
+
+.ikutan {
+    font-size: 20px;
+}
+
+.btn-email input {
+    height: 3.2vw;
+    border-radius: 5px;
+    padding: 17px;
+}
+
+.user-gabung,
+.blog-ditulis,
+.pertanyaan {
+    padding: 10px 20px;
+    background: #FEE6D8;
+    box-shadow: 0px 4px 20px 3px rgb(0 0 0 / 15%);
+    text-align: center;
+    border-radius: 25px;
+}
+
+.btn-daftar {
+    height: 3.2vw;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    background-color: rgb(249, 129, 58) !important;
+}
+
+.description {
+    background-color: #42b679;
+    padding: 2vw;
+    border-radius: 2vw;
+    height: 37vw;
+}
+
+.jawaban-group,
+.gamifikasi,
+.portofolio {
+    background: rgb(254, 254, 254);
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 20px 3px;
+    border-radius: 2vw;
+}
+
+.jawaban-group,
+.gamifikasi {
+    width: 21vw;
+}
+
+.jawaban-group img,
+.gamifikasi img {
+    margin: auto;
+}
+
+.jawaban-title {
+    font-size: 20px;
+    color: rgb(38, 50, 56);
+    font-weight: 600;
+}
+
+.alasan {
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.mengapa {
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 4.5vw;
+}
+
+.ibarat {
+    font-size: 26px;
+    background-image: url(../img/greenDot.svg);
+    background-position-y: 2vw;
+}
+
+.platform {
+    margin: auto;
+}
+
+.pemrograman img {
+    border: 3px solid green;
+    border-radius: 10px;
+    width: 5vw;
+    height: 85px;
+    padding: 10px;
+}
+
+.dapatkan {
+    font-size: 3.2vw;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 3px;
+}
+
+.berbagai {
+    font-size: 20px;
+}
+
+.memfasilitasi {
+    font-size: 20px;
+}
+
+.btn-ajukan {
+    background-color: rgb(249, 129, 58) !important;
+    color: #FFFFFF;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    width: 14vw;
+    height: 3.5vw;
+}
+
+.diliput {
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+
+.tele-grup {
+    background-image: url(../img/bg-tele.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gabung {
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.kolaborasi {
+    font-size: 18px;
+}
+
+.btn-tele {
+    width: 12vw;
+    height: 3vw;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    background-color: rgb(249, 129, 58) !important;
+    margin-bottom: 2vw;
+}

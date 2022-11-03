@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,800;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,800;1,400&display=swap');
+}
+
+.homeforum img {
+    width: 5vw;
+    border: 3px solid green;
+    border-radius: 5vw;
+    height: 6vw;
+    width: 6vw;
+    padding: 10px;
+    margin: auto;
+}
+
+.title {
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.homeforum button {
+    width: 11vw;
+    height: 3vw;
+    font-size: 18px;
+}
+
+.desc {
+    margin: 5px auto;
+}
+
+.orange {
+    background-color: rgb(249, 129, 58) !important;
+}
+
+.online-grup, .micro-grup, .job-grup {
+    box-shadow: 0px 4px 20px 3px rgb(0 0 0 / 15%);
+    align-items: center;
+    border-radius: 20px;
+    padding: 2vw;
+    width: 20vw;
+    height: 20.5vw;
+    padding-left: 4.5vw;
+}
+
+.online-grup, .job-grup {
+    margin-left: -23vw;
+}
+
+.micro-grup {
+    margin-right: 10vw;
+}

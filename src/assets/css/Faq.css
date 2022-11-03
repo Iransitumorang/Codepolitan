@@ -1,0 +1,46 @@
+.faq-teks {
+    background-image: url(../img/bg-faq.png);
+    font-size: 30px;
+    height: 25vw;
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+  
+}
+
+.pertanyaan-group {
+    color: rgb(254, 254, 254);
+    padding-top: 11vw;
+    font-weight: 600;
+}
+
+.pertanyaan-group p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.faq-center {
+    font-size: 25px;
+    font-weight: 500;
+    background: #FEFEFE;
+    box-shadow: -5px 10px 15px rgb(0 0 0 / 25%);
+    font-weight: 700;
+    border-radius: 10px;
+    width: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.5vw;
+}
+
+.accordion-button {
+    font-size: 2vw !important;
+    font-weight: 600 !important;
+}
+
+.accordion-body {
+    font-size: 20px !important;
+}
+
+.accordion-group {
+    margin-left: auto;
+    margin-right: auto;
+}
