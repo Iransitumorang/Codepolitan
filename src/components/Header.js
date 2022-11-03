@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
   return (
-       <header>
+       <header className='sticky-top'>
        <Navbar bg="light" expand="lg" className='py-md-3 d-flex justify-content-center'>
             <Link to="/">
                 <Navbar.Brand><img src={kotakode} alt='Kotakode' style={{width: "10vw", marginRight: "4vw"}}/> </Navbar.Brand>
