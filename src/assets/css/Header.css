@@ -20,9 +20,12 @@ header {
 }
 
 .menu-link a:hover {
-    border: 1px solid rgb(18, 153, 82);
-    /* background-color: red; */
-    /* border-radius: 8px; */
+    /* border: 1px solid rgb(18, 153, 82); */
+    background-color:  rgb(18, 153, 82);
+    border-radius: 8px;
+    height: 2vw;
+    width: auto;
+    color: #FFF7E9 !important;
 }
 
 #NavDropdown a:hover {
