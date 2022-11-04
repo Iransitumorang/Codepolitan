@@ -52,17 +52,17 @@ function Produk() {
             <div className='col-3 rightbar p-5' style={{height: '33vw'}}>
                 <div>
                     <b>Selamat Datang</b>
-                    <p>Ikuti facebook , telegram dan instagram kami untuk update terbaru.</p>
+                    <p>Ikuti <Link to="/www.facebook.com" target='blank'>facebook</Link>, <Link to="#">telegram</Link> dan <Link to="#">instagram</Link> kami untuk update terbaru.</p>
                     <p>Setelah membuat pertanyaan, kamu bisa copy-paste link pertanyaan kamu ke grup Telegram atau FB untuk mengasih tahu para member di grup tersebut</p>
                     <p>Ada yang tidak dimengerti? FAQ.</p>
                 </div>
                 <div>
-                    <b>User Aktif</b>
-                    <DropdownButton id="dropdown-item-button" title="Harian">
-                        <Dropdown.Item as="button">Harian</Dropdown.Item>
-                        <Dropdown.Item as="button">Mingguan action</Dropdown.Item>
-                        <Dropdown.Item as="button">Bulanan</Dropdown.Item>
-                    </DropdownButton>
+                    <b>User Teraktif</b> <br />
+                    <select class="custom-select my-2">
+                        <option value="1">Harian</option>
+                        <option value="2">Mingguan</option>
+                        <option value="3">Bulanan</option>
+                    </select>
                 </div>
             </div>
         </Container>

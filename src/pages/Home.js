@@ -170,7 +170,7 @@ function Home() {
             <Link to="https://web.telegram.org/k/">
               <img src={tele} alt="telegram" style={{ width: "7vw" }} />
             </Link>
-            <div className='my-md-4 gabung'> Gabung Komunitas Telegram Kotakode </div>
+            <div className='my-md-4 gabung mx-auto'> Gabung Komunitas Telegram Kotakode </div>
             <div className='kolaborasi mb-md-3'>
               Kotakode berkolaborasi dengan berbagai pioneer yang inovatif untuk
               bersama mencapai tujuan yang besar

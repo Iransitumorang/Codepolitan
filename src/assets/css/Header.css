@@ -13,7 +13,7 @@ header {
 }
 
 .menu-link a {
-    color: rgb(117, 117, 117) !important;
+    color: rgb(117, 117, 117);
     font-weight: 600;
     text-decoration: none;
     border: initial;
@@ -35,4 +35,9 @@ header {
 
 button {
     width: 8vw;
+}
+
+.active {
+    color: rgb(18, 153, 82) !important;
+    border-bottom: 2px solid rgb(18, 153, 82) !important;
 }

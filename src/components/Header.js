@@ -2,8 +2,7 @@ import Button from 'react-bootstrap/Button';
 import React from 'react';
 import kotakode from "../assets/img/kotakode.png";
 import '../assets/css/Header.css';
-import { Link } from 'react-router-dom';
-// import NavLink from 'react-bootstrap/esm/NavLink';
+import { NavLink, Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
@@ -14,12 +13,12 @@ function Header() {
                 <Navbar.Brand><img src={kotakode} alt='Kotakode' style={{width: "10vw", marginRight: "4vw"}}/> </Navbar.Brand>
             </Link>
             <div className='d-flex gap-4 me-5 menu-link'>
-                <Link to='/about'>Tentang</Link>
-                <Link to='/produk'>Produk</Link>
-                <Link to='/faq'>FAQ</Link>  
-                <Link to='/events'>Events</Link>
-                <Link to='/partnership'>Partnership</Link>
-                <Link to='/academy'>Academy</Link>
+                <NavLink to='/about' exact activeClassName="active">Tentang</NavLink>
+                <NavLink to='/produk' activeClassName="active">Produk</NavLink>
+                <NavLink to='/faq' activeClassName="active">FAQ</NavLink>  
+                <NavLink to='/events' activeClassName="active">Events</NavLink>
+                <NavLink to='/partnership' activeClassName="active">Partnership</NavLink>
+                <NavLink to='/academy' activeClassName="active">Academy</NavLink>
             </div>
             <div className='ms-5'>
                 <Link to='/login'>
