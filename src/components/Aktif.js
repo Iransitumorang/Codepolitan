@@ -24,8 +24,8 @@ function Baru() {
         </Container>
 
         <Container className='d-flex mt-4'>
-            <div className='d-flex flex-fill gap-2 align-items-center'>
-                <AiOutlineEye style={{fontSize: "20px"}}/>
+            <div className='d-flex flex-fill gap-2'>
+                <AiOutlineEye style={{fontSize: "20px", marginTop: "6px"}}/>
                 <h4>5</h4>
             </div>
             <div>

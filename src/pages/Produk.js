@@ -49,7 +49,7 @@ function Produk() {
           </div>
           
           <Tabs
-            defaultActiveKey="profile"
+            defaultActiveKey="baru"
             id="fill-tab-example"
             className="mb-3 mt-5"
             fill
@@ -83,10 +83,10 @@ function Produk() {
             <b>Selamat Datang</b>
             <p>
               Ikuti{" "}
-              <Link to="/www.facebook.com" target="blank">
+              <a href="https://www.facebook.com/" target="blank">
                 facebook
-              </Link>
-              , <Link to="#">telegram</Link> dan <Link to="#">instagram</Link>{" "}
+              </a>
+              , <a href="https://web.telegram.org/" target="blank">telegram</a> dan <a href="https://www.instagram.com/" target="blank">instagram</a>{" "}
               kami untuk update terbaru.
             </p>
             <p>

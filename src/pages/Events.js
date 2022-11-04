@@ -1,5 +1,4 @@
 import React from 'react'
-// import Button from 'react-bootstrap/esm/Button'
 import Container from 'react-bootstrap/esm/Container'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header'
@@ -7,6 +6,7 @@ import Footer from '../components/Footer';
 import "../assets/css/Events.css"
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Webinar from '../components/Webinar';
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -22,12 +22,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
+        <Webinar />
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide} variant="success">Close</Button>

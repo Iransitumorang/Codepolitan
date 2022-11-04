@@ -37,10 +37,18 @@ function Footer() {
                         <span>HUBUNGI KAMI</span>
                         <div className='email'>Petertanugraha@kotakode.com</div>
                         <div className='sosmed mt-md-1'>
+                        <a href='https://www.linkedin.com/' target='blank'>
                             <FaLinkedin className='me-md-2' />
+                        </a>
+                        <a href='https://www.instagram.com/' target='blank'>
                             <FaInstagram className='me-md-2' />
+                        </a>
+                        <a href='https://www.twitter.com/' target='blank'>
                             <FaTwitterSquare className='me-md-2' />
+                        </a>
+                        <a href='https://www.facebook.com/' target='blank'>
                             <FaFacebookSquare className='me-md-2' />
+                        </a>
                         </div>
                     </div>
                 </div>
