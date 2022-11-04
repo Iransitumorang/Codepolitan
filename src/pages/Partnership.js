@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer';
 import sidegbr from '../assets/img/sidegbr.svg'
 import "../assets/css/Partnership.css"
+import { Link } from 'react-router-dom';
 
 function Partnership() {
   return (
@@ -12,12 +13,14 @@ function Partnership() {
     <Header />
     <Container className="mb-5 mt-3">
         <div className='d-flex'>
-            <img src={sidegbr} alt='' />
+            <img src={sidegbr} alt='side gambar' />
             <div className='kkd-rightbar mt-5 ms-3'>
                 <h4>Kotakode Partnership</h4>
                 <h1>Bersama Membangun <br /> Talenta Digital di Indonesia</h1>
                 <h4 className='my-3'>Kotakode membuka peluang kolaborasi dengan berbagai institusi untuk mendukung ekosistem digital di Indonesia</h4>
-                <Button variant="success" className='gabung'>Gabung Sekarang!</Button>
+                <Link to="/login">
+                  <Button variant="success" className='gabung'>Gabung Sekarang!</Button>
+                </Link>
             </div>
         </div>
 

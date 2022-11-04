@@ -24,3 +24,7 @@
     width: 6vw;
     border-radius: 5px;
 }
+
+.tabsTitle, #fill-tab-example-tab-aktif, #fill-tab-example-tab-belum-dijawab, #fill-tab-example-tab-baru {
+    color: rgb(25, 25, 25) !important;
+}
